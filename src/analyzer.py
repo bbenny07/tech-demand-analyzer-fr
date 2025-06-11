@@ -16,6 +16,5 @@ def extract_skills(job_list):
     return Counter(keywords)
 
 def analyze_skills(job_data):
-    print("[analyzer] Extracting skills...")
     skills = extract_skills(job_data)
     return skills.most_common()
