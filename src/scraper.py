@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+import time
+from analyzer import analyze_skills
 
 languages = ['python', 'java', 'c++', 'javascript', 'ruby', 'go', 'php']
 
@@ -85,7 +87,7 @@ def scrape_wttj(language="python", location="paris", limit=20):
   time.sleep(1)  # небольшая задержка
 
   print(f"[scraper] Total jobs scraped: {len(all_jobs)}")
-  print("Status code:", response.text[:2000])
+  # print("Status code:", response.text[:20000])
   return all_jobs
   
   # jobs = response.json()["results"][0]["hits"]
