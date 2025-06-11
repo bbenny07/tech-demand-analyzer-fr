@@ -1,2 +1,4 @@
 
 tarsafe
+beautifulsoup4
+requests
