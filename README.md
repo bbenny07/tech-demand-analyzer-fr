@@ -1,4 +1,4 @@
-# Tech Demand Analyzer FR 🇫🇷
+# Tech Demand Analyzer FR
 
 📊 A data analysis project to explore which programming languages and technologies are most in demand in France (especially Paris and remote jobs).  
 Focus: Python, Java, C++, QA, and more.
