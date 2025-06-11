@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import time
-from analyzer import analyze_skills
 
 languages = ['python', 'java', 'c++', 'javascript', 'ruby', 'go', 'php']
 
