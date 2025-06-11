@@ -11,7 +11,7 @@ def extract_skills(job_list):
             if not isinstance(text, str):
                 continue
             matches = pattern.findall(text)
-            keywords.extend([match.lower() for match in matches])
+            keywords.extend(list(set([match.lower() for match in matches])))
 
     return Counter(keywords)
 
