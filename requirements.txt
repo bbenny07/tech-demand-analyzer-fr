@@ -2,3 +2,4 @@
 tarsafe
 beautifulsoup4
 requests
+matplotlib
